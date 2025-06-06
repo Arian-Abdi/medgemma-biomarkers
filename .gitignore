@@ -1,0 +1,49 @@
+# Python 
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files (large datasets)
+data/raw/
+data/processed/*.csv
+data/processed/*.json
+*.pkl
+*.h5
+
+# Model files (if you save locally)
+models/
+checkpoints/
+*.bin
+*.safetensors
+
+# Logs and outputs
+logs/
+outputs/
+wandb/
+.wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Hugging Face cache (optional - usually keep in default location)
+.cache/
